@@ -1,0 +1,1 @@
+{"compilerOptions":{"module":"ESNext","moduleResolution":"bundler","types":["node"]},"exclude":[],"extends":"./tsconfig.json","include":["src/lib/__tests__/**/*.ts","src/lib/*.ts"]}
