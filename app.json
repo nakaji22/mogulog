@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#2F9E63",
+        "foregroundImage": "./assets/images/icon.png"
+      },
+      "package": "com.mogulog.app",
+      "predictiveBackGestureEnabled": false
+    },
+    "experiments": {
+      "reactCompiler": true,
+      "typedRoutes": true
+    },
+    "icon": "./assets/images/icon.png",
+    "ios": {
+      "buildNumber": "1",
+      "bundleIdentifier": "com.mogulog.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "食事の写真を撮影して記録するためにカメラを使用します。写真は端末内にのみ保存されます。",
+        "NSPhotoLibraryUsageDescription": "食事の写真を選んで記録するために写真ライブラリへアクセスします。写真は端末内にのみ保存されます。"
+      },
+      "supportsTablet": false
+    },
+    "name": "もぐログ",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "食事の写真を撮影して記録するためにカメラを使用します。写真は端末内にのみ保存されます。"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "食事の写真を撮影して記録するためにカメラを使用します。写真は端末内にのみ保存されます。",
+          "photosPermission": "食事の写真を選んで記録するために写真ライブラリへアクセスします。写真は端末内にのみ保存されます。"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#2F9E63",
+          "image": "./assets/images/icon.png",
+          "imageWidth": 120
+        }
+      ],
+      "expo-sharing"
+    ],
+    "scheme": "mogulog",
+    "slug": "mogulog",
+    "userInterfaceStyle": "automatic",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./assets/images/icon.png",
+      "output": "static"
+    }
+  }
+}
