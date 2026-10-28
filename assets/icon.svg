@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#37B26D"/>
+      <stop offset="1" stop-color="#22734A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- steam -->
+  <path d="M420 300c-26-52 26-78 0-130" stroke="#DFF5E6" stroke-width="34" stroke-linecap="round" fill="none"/>
+  <path d="M540 310c-26-52 26-78 0-130" stroke="#DFF5E6" stroke-width="34" stroke-linecap="round" fill="none"/>
+  <path d="M660 300c-26-52 26-78 0-130" stroke="#DFF5E6" stroke-width="34" stroke-linecap="round" fill="none"/>
+  <!-- rice mound -->
+  <path d="M292 512c28-108 116-176 220-176s192 68 220 176z" fill="#FFFFFF"/>
+  <!-- leaf on rice -->
+  <path d="M512 268c44 8 74 38 80 84-46-6-76-36-80-84z" fill="#8FE3AE"/>
+  <!-- bowl -->
+  <path d="M232 512h560c-14 150-118 268-280 268S246 662 232 512z" fill="#FFFFFF"/>
+  <rect x="392" y="800" width="240" height="36" rx="18" fill="#FFFFFF" opacity="0.85"/>
+</svg>
